@@ -10,7 +10,7 @@ var score = 0
 const MAX_COIN = 13
 
 func _process(delta):
-	score_label.global_position = player.global_position + Vector2(-130, -65)
+	score_label.global_position = player.global_position + Vector2(-130, -65) 
 
 func add_point():
 	score += 1
